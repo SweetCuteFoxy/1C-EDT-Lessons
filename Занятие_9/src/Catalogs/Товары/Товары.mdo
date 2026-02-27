@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="288f7690-40a7-42ee-8dd8-d4c41265bd61">
+  <producedTypes>
+    <objectType typeId="f29a00a8-4a02-4abd-b0e4-c4ce28836033" valueTypeId="7260130d-bc83-4281-93d1-dce743b7ce36"/>
+    <refType typeId="14fe1473-ed84-42cd-8ada-0900f57b444c" valueTypeId="657254ff-f4bd-4e90-aa89-82ba599d6f87"/>
+    <selectionType typeId="3b2722fe-5e70-4515-b852-d42209986cee" valueTypeId="b40a407c-19c6-4549-91d7-1021633df1fe"/>
+    <listType typeId="7e0f1552-f2ea-43e0-b956-8a73587bcc97" valueTypeId="c3200e42-0fd9-4365-96d6-c1b0ef325619"/>
+    <managerType typeId="14275782-c96f-48ef-b6db-deb5ea62fa30" valueTypeId="fdf7c7f6-8075-46c9-88c2-2686944efe8d"/>
+  </producedTypes>
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Товары.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Товары.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e9e241b6-460c-45f0-8320-038a3cf10a76">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2afb552a-6487-4530-b93b-253c7dc56c41">
+    <producedTypes>
+      <objectType typeId="7e92e2c1-1d9c-40fa-9de5-bdd9e5e227a3" valueTypeId="894f3558-ece2-4a72-ae32-413ad1213fd5"/>
+      <rowType typeId="97d4248e-9dc3-44d3-8d17-9d898f932e35" valueTypeId="6732c899-db75-49fd-ad5b-a56f079d4e3e"/>
+    </producedTypes>
+    <name>СоставСемьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав семьи</value>
+    </synonym>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Catalog>

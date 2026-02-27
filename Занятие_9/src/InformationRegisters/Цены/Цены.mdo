@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b2c3d4-9001-4a01-b901-000000000901">
+  <producedTypes>
+    <selectionType typeId="a1b2c3d4-9001-4a01-b901-000000000902" valueTypeId="a1b2c3d4-9001-4a01-b901-000000000903"/>
+    <listType typeId="a1b2c3d4-9001-4a01-b901-000000000904" valueTypeId="a1b2c3d4-9001-4a01-b901-000000000905"/>
+    <managerType typeId="a1b2c3d4-9001-4a01-b901-000000000906" valueTypeId="a1b2c3d4-9001-4a01-b901-000000000907"/>
+    <recordSetType typeId="a1b2c3d4-9001-4a01-b901-000000000908" valueTypeId="a1b2c3d4-9001-4a01-b901-000000000909"/>
+    <recordKeyType typeId="a1b2c3d4-9001-4a01-b901-00000000090a" valueTypeId="a1b2c3d4-9001-4a01-b901-00000000090b"/>
+    <recordType typeId="a1b2c3d4-9001-4a01-b901-00000000090c" valueTypeId="a1b2c3d4-9001-4a01-b901-00000000090d"/>
+  </producedTypes>
+  <name>Цены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены</value>
+  </synonym>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Цена</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Цены на номенклатуру</value>
+  </listPresentation>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dimensions uuid="a1b2c3d4-9001-4a01-b901-000000000910">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </dimensions>
+  <resources uuid="a1b2c3d4-9001-4a01-b901-000000000920">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </resources>
+</mdclass:InformationRegister>
