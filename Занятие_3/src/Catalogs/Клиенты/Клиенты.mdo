@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa101">
+  <producedTypes>
+    <objectType typeId="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa102" valueTypeId="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa103"/>
+    <refType typeId="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa104" valueTypeId="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa105"/>
+    <selectionType typeId="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa106" valueTypeId="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa107"/>
+    <listType typeId="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa108" valueTypeId="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa109"/>
+    <managerType typeId="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa10a" valueTypeId="c1d2e3f4-1111-4aaa-a111-aaaaaaaaa10b"/>
+  </producedTypes>
+  <name>Клиенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиенты</value>
+  </synonym>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Клиент</value>
+  </objectPresentation>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ф. И. О.</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
