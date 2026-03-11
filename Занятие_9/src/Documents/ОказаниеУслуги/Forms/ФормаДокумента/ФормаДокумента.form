@@ -1,5 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:InputField">
+    <name>Номер</name>
+    <id>2</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <dataPath>
+      <segments>Объект.Number</segments>
+    </dataPath>
+  </items>
+  <items xsi:type="form:InputField">
+    <name>Дата</name>
+    <id>3</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <dataPath>
+      <segments>Объект.Date</segments>
+    </dataPath>
+  </items>
+  <items xsi:type="form:InputField">
+    <name>Склад</name>
+    <id>4</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <dataPath>
+      <segments>Объект.Склад</segments>
+    </dataPath>
+  </items>
+  <items xsi:type="form:InputField">
+    <name>Клиент</name>
+    <id>5</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <dataPath>
+      <segments>Объект.Клиент</segments>
+    </dataPath>
+  </items>
+  <items xsi:type="form:InputField">
+    <name>Мастер</name>
+    <id>6</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <dataPath>
+      <segments>Объект.Мастер</segments>
+    </dataPath>
+  </items>
+  <items xsi:type="form:Table">
+    <name>ПереченьНоменклатуры</name>
+    <id>7</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <dataPath>
+      <segments>Объект.ПереченьНоменклатуры</segments>
+    </dataPath>
+    <items xsi:type="form:InputField">
+      <name>ПереченьНоменклатурыНоменклатура</name>
+      <id>8</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <dataPath>
+        <segments>Объект.ПереченьНоменклатуры.Номенклатура</segments>
+      </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПереченьНоменклатурыНоменклатураПриИзменении</name>
+      </handlers>
+    </items>
+    <items xsi:type="form:InputField">
+      <name>ПереченьНоменклатурыКоличество</name>
+      <id>9</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <dataPath>
+        <segments>Объект.ПереченьНоменклатуры.Количество</segments>
+      </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПереченьНоменклатурыКоличествоПриИзменении</name>
+      </handlers>
+    </items>
+    <items xsi:type="form:InputField">
+      <name>ПереченьНоменклатурыЦена</name>
+      <id>10</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <dataPath>
+        <segments>Объект.ПереченьНоменклатуры.Цена</segments>
+      </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПереченьНоменклатурыЦенаПриИзменении</name>
+      </handlers>
+    </items>
+    <items xsi:type="form:InputField">
+      <name>ПереченьНоменклатурыСумма</name>
+      <id>11</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <dataPath>
+        <segments>Объект.ПереченьНоменклатуры.Сумма</segments>
+      </dataPath>
+    </items>
+    <commandBarLocation>None</commandBarLocation>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
