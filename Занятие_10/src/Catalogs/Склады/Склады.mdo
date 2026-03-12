@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1d2e3f4-4444-4ddd-a444-ddddddddd401">
+  <producedTypes>
+    <objectType typeId="c1d2e3f4-4444-4ddd-a444-ddddddddd402" valueTypeId="c1d2e3f4-4444-4ddd-a444-ddddddddd403"/>
+    <refType typeId="c1d2e3f4-4444-4ddd-a444-ddddddddd404" valueTypeId="c1d2e3f4-4444-4ddd-a444-ddddddddd405"/>
+    <selectionType typeId="c1d2e3f4-4444-4ddd-a444-ddddddddd406" valueTypeId="c1d2e3f4-4444-4ddd-a444-ddddddddd407"/>
+    <listType typeId="c1d2e3f4-4444-4ddd-a444-ddddddddd408" valueTypeId="c1d2e3f4-4444-4ddd-a444-ddddddddd409"/>
+    <managerType typeId="c1d2e3f4-4444-4ddd-a444-ddddddddd40a" valueTypeId="c1d2e3f4-4444-4ddd-a444-ddddddddd40b"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Склад</value>
+  </objectPresentation>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <predefined>
+    <item id="c1d2e3f4-4444-4ddd-a444-ddddddddd410">
+      <name>Основной</name>
+      <description>Основной</description>
+      <code xsi:type="core:StringValue"/>
+      <isFolder>false</isFolder>
+    </item>
+  </predefined>
+</mdclass:Catalog>

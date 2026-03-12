@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<v8:SpreadsheetDocument xmlns:v8="http://v8.1c.ru/8.1/data/ui"
+ xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<v8:columns>
+		<v8:column>
+			<v8:width>2</v8:width>
+		</v8:column>
+		<v8:column>
+			<v8:width>12</v8:width>
+		</v8:column>
+		<v8:column>
+			<v8:width>25</v8:width>
+		</v8:column>
+		<v8:column>
+			<v8:width>12</v8:width>
+		</v8:column>
+		<v8:column>
+			<v8:width>12</v8:width>
+		</v8:column>
+		<v8:column>
+			<v8:width>14</v8:width>
+		</v8:column>
+	</v8:columns>
+	<v8:rowType>
+		<v8:row nameText="Заголовок">
+			<v8:c/>
+			<v8:c t="Оказание услуги" cs="5">
+				<v8:font bold="true" size="14"/>
+				<v8:hAlign>Center</v8:hAlign>
+			</v8:c>
+		</v8:row>
+	</v8:rowType>
+	<v8:rowType>
+		<v8:row nameText="Шапка">
+			<v8:c/>
+			<v8:c t="Клиент:" cs="2"/>
+			<v8:c fillType="Parameter" t="Клиент" cs="3"/>
+		</v8:row>
+		<v8:row>
+			<v8:c/>
+			<v8:c t="Мастер:" cs="2"/>
+			<v8:c fillType="Parameter" t="Мастер" cs="3"/>
+		</v8:row>
+		<v8:row>
+			<v8:c/>
+			<v8:c t="Склад:" cs="2"/>
+			<v8:c fillType="Parameter" t="Склад" cs="3"/>
+		</v8:row>
+		<v8:row>
+			<v8:c/>
+			<v8:c t="Дата:" cs="2"/>
+			<v8:c fillType="Parameter" t="Дата" cs="3"/>
+		</v8:row>
+	</v8:rowType>
+	<v8:rowType>
+		<v8:row nameText="ПереченьНоменклатурыШапка">
+			<v8:c t="N">
+				<v8:font bold="true"/>
+				<v8:border sides="All" style="Solid"/>
+				<v8:hAlign>Center</v8:hAlign>
+			</v8:c>
+			<v8:c t="Номенклатура" cs="2">
+				<v8:font bold="true"/>
+				<v8:border sides="All" style="Solid"/>
+				<v8:hAlign>Center</v8:hAlign>
+			</v8:c>
+			<v8:c t="Количество">
+				<v8:font bold="true"/>
+				<v8:border sides="All" style="Solid"/>
+				<v8:hAlign>Center</v8:hAlign>
+			</v8:c>
+			<v8:c t="Цена">
+				<v8:font bold="true"/>
+				<v8:border sides="All" style="Solid"/>
+				<v8:hAlign>Center</v8:hAlign>
+			</v8:c>
+			<v8:c t="Сумма">
+				<v8:font bold="true"/>
+				<v8:border sides="All" style="Solid"/>
+				<v8:hAlign>Center</v8:hAlign>
+			</v8:c>
+		</v8:row>
+	</v8:rowType>
+	<v8:rowType>
+		<v8:row nameText="ПереченьНоменклатуры">
+			<v8:c fillType="Parameter" t="НомерСтроки">
+				<v8:border sides="All" style="Solid"/>
+				<v8:hAlign>Center</v8:hAlign>
+			</v8:c>
+			<v8:c fillType="Parameter" t="Номенклатура" cs="2">
+				<v8:border sides="All" style="Solid"/>
+			</v8:c>
+			<v8:c fillType="Parameter" t="Количество">
+				<v8:border sides="All" style="Solid"/>
+				<v8:hAlign>Right</v8:hAlign>
+			</v8:c>
+			<v8:c fillType="Parameter" t="Цена">
+				<v8:border sides="All" style="Solid"/>
+				<v8:hAlign>Right</v8:hAlign>
+			</v8:c>
+			<v8:c fillType="Parameter" t="Сумма">
+				<v8:border sides="All" style="Solid"/>
+				<v8:hAlign>Right</v8:hAlign>
+			</v8:c>
+		</v8:row>
+	</v8:rowType>
+	<v8:rowType>
+		<v8:row nameText="Всего">
+			<v8:c/>
+			<v8:c/>
+			<v8:c/>
+			<v8:c/>
+			<v8:c t="Всего:">
+				<v8:font bold="true"/>
+				<v8:hAlign>Right</v8:hAlign>
+			</v8:c>
+			<v8:c fillType="Parameter" t="ВсегоПоДокументу">
+				<v8:font bold="true"/>
+				<v8:border sides="All" style="Solid"/>
+				<v8:hAlign>Right</v8:hAlign>
+			</v8:c>
+		</v8:row>
+	</v8:rowType>
+</v8:SpreadsheetDocument>
