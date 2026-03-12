@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a1b2c3-1101-4a11-b110-110000001101">
+  <producedTypes>
+    <selectionType typeId="f0a1b2c3-1101-4a11-b110-110000001102" valueTypeId="f0a1b2c3-1101-4a11-b110-110000001103"/>
+    <listType typeId="f0a1b2c3-1101-4a11-b110-110000001104" valueTypeId="f0a1b2c3-1101-4a11-b110-110000001105"/>
+    <managerType typeId="f0a1b2c3-1101-4a11-b110-110000001106" valueTypeId="f0a1b2c3-1101-4a11-b110-110000001107"/>
+    <recordSetType typeId="f0a1b2c3-1101-4a11-b110-110000001108" valueTypeId="f0a1b2c3-1101-4a11-b110-110000001109"/>
+    <recordKeyType typeId="f0a1b2c3-1101-4a11-b110-11000000110a" valueTypeId="f0a1b2c3-1101-4a11-b110-11000000110b"/>
+    <recordType typeId="f0a1b2c3-1101-4a11-b110-11000000110c" valueTypeId="f0a1b2c3-1101-4a11-b110-11000000110d"/>
+  </producedTypes>
+  <name>СтоимостьМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <registerType>Turnovers</registerType>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <dimensions uuid="f0a1b2c3-1101-4a11-b110-110000001110">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <resources uuid="f0a1b2c3-1101-4a11-b110-110000001120">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f0a1b2c3-1101-4a11-b110-110000001121">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+</mdclass:AccumulationRegister>
