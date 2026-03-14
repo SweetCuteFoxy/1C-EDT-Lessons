@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f30272c-33a3-4806-bd2c-6f4fc5c31946">
   <name>Бухгалтерия</name>
   <synonym>
@@ -17,11 +17,7 @@
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Report.Материалы</content>
   <content>InformationRegister.Цены</content>
+  <content>Enum.ВидыНоменклатуры</content>
   <content>AccumulationRegister.СтоимостьМатериалов</content>
   <content>AccumulationRegister.Продажи</content>
-  <content>Report.РеестрДокументов</content>
-  <content>Report.ВыручкаМастеров</content>
-  <content>Report.РейтингУслуг</content>
-  <content>Report.Универсальный</content>
-  <content>Enum.ВидыНоменклатуры</content>
 </mdclass:Subsystem>

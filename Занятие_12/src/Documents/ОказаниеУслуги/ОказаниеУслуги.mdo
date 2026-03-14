@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1a2b3c4-0002-4a02-b002-000000000201">
   <producedTypes>
     <objectType typeId="d1a2b3c4-0002-4a02-b002-000000000202" valueTypeId="d1a2b3c4-0002-4a02-b002-000000000203"/>
@@ -29,7 +29,6 @@
   <autonumbering>true</autonumbering>
   <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
   <registerRecords>AccumulationRegister.СтоимостьМатериалов</registerRecords>
-  <registerRecords>AccumulationRegister.Продажи</registerRecords>
   <defaultObjectForm>Document.ОказаниеУслуги.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
@@ -173,6 +172,28 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <fillValue xsi:type="core:NumberValue">
+        <value>0</value>
+      </fillValue>
+      <fullTextSearch>Use</fullTextSearch>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="d1a2b3c4-0002-4a02-b002-000000001235">
+      <name>Стоимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Стоимость</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:NumberValue">
         <value>0</value>
       </fillValue>

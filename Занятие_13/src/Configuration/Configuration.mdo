@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ccfe9e-9be7-4079-81b3-d39c15522309">
   <name>Услуги</name>
   <synonym>
@@ -56,10 +56,6 @@
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <reports>Report.Материалы</reports>
-  <reports>Report.РеестрДокументов</reports>
-  <reports>Report.ВыручкаМастеров</reports>
-  <reports>Report.РейтингУслуг</reports>
-  <reports>Report.Универсальный</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
@@ -68,4 +64,5 @@
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <commonModules>CommonModule.Серверный</commonModules>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
 </mdclass:Configuration>

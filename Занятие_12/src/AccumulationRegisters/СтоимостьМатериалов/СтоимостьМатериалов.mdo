@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a1b2c3-1101-4a11-b110-110000001101">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a1b2c3-1201-4a12-b120-120000001201">
   <producedTypes>
-    <selectionType typeId="f0a1b2c3-1101-4a11-b110-110000001102" valueTypeId="f0a1b2c3-1101-4a11-b110-110000001103"/>
-    <listType typeId="f0a1b2c3-1101-4a11-b110-110000001104" valueTypeId="f0a1b2c3-1101-4a11-b110-110000001105"/>
-    <managerType typeId="f0a1b2c3-1101-4a11-b110-110000001106" valueTypeId="f0a1b2c3-1101-4a11-b110-110000001107"/>
-    <recordSetType typeId="f0a1b2c3-1101-4a11-b110-110000001108" valueTypeId="f0a1b2c3-1101-4a11-b110-110000001109"/>
-    <recordKeyType typeId="f0a1b2c3-1101-4a11-b110-11000000110a" valueTypeId="f0a1b2c3-1101-4a11-b110-11000000110b"/>
-    <recordType typeId="f0a1b2c3-1101-4a11-b110-11000000110c" valueTypeId="f0a1b2c3-1101-4a11-b110-11000000110d"/>
+    <selectionType typeId="f0a1b2c3-1201-4a12-b120-120000001211" valueTypeId="f0a1b2c3-1201-4a12-b120-120000001212"/>
+    <listType typeId="f0a1b2c3-1201-4a12-b120-120000001213" valueTypeId="f0a1b2c3-1201-4a12-b120-120000001214"/>
+    <managerType typeId="f0a1b2c3-1201-4a12-b120-120000001215" valueTypeId="f0a1b2c3-1201-4a12-b120-120000001216"/>
+    <recordSetType typeId="f0a1b2c3-1201-4a12-b120-120000001217" valueTypeId="f0a1b2c3-1201-4a12-b120-120000001218"/>
+    <recordKeyType typeId="f0a1b2c3-1201-4a12-b120-120000001219" valueTypeId="f0a1b2c3-1201-4a12-b120-12000000121a"/>
+    <recordType typeId="f0a1b2c3-1201-4a12-b120-12000000121b" valueTypeId="f0a1b2c3-1201-4a12-b120-12000000121c"/>
   </producedTypes>
   <name>СтоимостьМатериалов</name>
   <synonym>
@@ -14,15 +14,18 @@
     <value>Стоимость материалов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <listPresentation>
+    <key>ru</key>
+    <value>Движения по регистру Стоимость материалов</value>
+  </listPresentation>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <registerType>Turnovers</registerType>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <dimensions uuid="f0a1b2c3-1101-4a11-b110-110000001110">
-    <name>Номенклатура</name>
+  <dimensions uuid="f0a1b2c3-1201-4a12-b120-120000001221">
+    <name>Материал</name>
     <synonym>
       <key>ru</key>
-      <value>Номенклатура</value>
+      <value>Материал</value>
     </synonym>
     <type>
       <types>CatalogRef.Номенклатура</types>
@@ -30,8 +33,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </dimensions>
-  <resources uuid="f0a1b2c3-1101-4a11-b110-110000001120">
+  <resources uuid="f0a1b2c3-1201-4a12-b120-120000001231">
     <name>Стоимость</name>
     <synonym>
       <key>ru</key>
@@ -47,22 +51,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-  </resources>
-  <resources uuid="f0a1b2c3-1101-4a11-b110-110000001121">
-    <name>Количество</name>
-    <synonym>
-      <key>ru</key>
-      <value>Количество</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>3</scale>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </resources>
 </mdclass:AccumulationRegister>

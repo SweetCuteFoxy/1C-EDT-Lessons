@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a1b2c3-1201-4a12-b120-120000001201">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0a1b2c3-1301-4a13-b130-130000001301">
   <producedTypes>
-    <selectionType typeId="f0a1b2c3-1201-4a12-b120-120000001202" valueTypeId="f0a1b2c3-1201-4a12-b120-120000001203"/>
-    <listType typeId="f0a1b2c3-1201-4a12-b120-120000001204" valueTypeId="f0a1b2c3-1201-4a12-b120-120000001205"/>
-    <managerType typeId="f0a1b2c3-1201-4a12-b120-120000001206" valueTypeId="f0a1b2c3-1201-4a12-b120-120000001207"/>
-    <recordSetType typeId="f0a1b2c3-1201-4a12-b120-120000001208" valueTypeId="f0a1b2c3-1201-4a12-b120-120000001209"/>
-    <recordKeyType typeId="f0a1b2c3-1201-4a12-b120-12000000120a" valueTypeId="f0a1b2c3-1201-4a12-b120-12000000120b"/>
-    <recordType typeId="f0a1b2c3-1201-4a12-b120-12000000120c" valueTypeId="f0a1b2c3-1201-4a12-b120-12000000120d"/>
+    <selectionType typeId="f0a1b2c3-1301-4a13-b130-130000001311" valueTypeId="f0a1b2c3-1301-4a13-b130-130000001312"/>
+    <listType typeId="f0a1b2c3-1301-4a13-b130-130000001313" valueTypeId="f0a1b2c3-1301-4a13-b130-130000001314"/>
+    <managerType typeId="f0a1b2c3-1301-4a13-b130-130000001315" valueTypeId="f0a1b2c3-1301-4a13-b130-130000001316"/>
+    <recordSetType typeId="f0a1b2c3-1301-4a13-b130-130000001317" valueTypeId="f0a1b2c3-1301-4a13-b130-130000001318"/>
+    <recordKeyType typeId="f0a1b2c3-1301-4a13-b130-130000001319" valueTypeId="f0a1b2c3-1301-4a13-b130-13000000131a"/>
+    <recordType typeId="f0a1b2c3-1301-4a13-b130-13000000131b" valueTypeId="f0a1b2c3-1301-4a13-b130-13000000131c"/>
   </producedTypes>
   <name>Продажи</name>
   <synonym>
@@ -14,11 +14,15 @@
     <value>Продажи</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <listPresentation>
+    <key>ru</key>
+    <value>Движения по регистру Продажи</value>
+  </listPresentation>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <registerType>Turnovers</registerType>
   <enableTotalsSplitting>true</enableTotalsSplitting>
-  <dimensions uuid="f0a1b2c3-1201-4a12-b120-120000001210">
+  <dimensions uuid="f0a1b2c3-1301-4a13-b130-130000001321">
     <name>Номенклатура</name>
     <synonym>
       <key>ru</key>
@@ -30,8 +34,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </dimensions>
-  <dimensions uuid="f0a1b2c3-1201-4a12-b120-120000001211">
+  <dimensions uuid="f0a1b2c3-1301-4a13-b130-130000001322">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -43,8 +48,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </dimensions>
-  <dimensions uuid="f0a1b2c3-1201-4a12-b120-120000001212">
+  <dimensions uuid="f0a1b2c3-1301-4a13-b130-130000001323">
     <name>Мастер</name>
     <synonym>
       <key>ru</key>
@@ -56,8 +62,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </dimensions>
-  <resources uuid="f0a1b2c3-1201-4a12-b120-120000001220">
+  <resources uuid="f0a1b2c3-1301-4a13-b130-130000001331">
     <name>Количество</name>
     <synonym>
       <key>ru</key>
@@ -73,8 +80,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </resources>
-  <resources uuid="f0a1b2c3-1201-4a12-b120-120000001221">
+  <resources uuid="f0a1b2c3-1301-4a13-b130-130000001332">
     <name>Выручка</name>
     <synonym>
       <key>ru</key>
@@ -90,8 +98,9 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </resources>
-  <resources uuid="f0a1b2c3-1201-4a12-b120-120000001222">
+  <resources uuid="f0a1b2c3-1301-4a13-b130-130000001333">
     <name>Стоимость</name>
     <synonym>
       <key>ru</key>
@@ -107,5 +116,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </resources>
 </mdclass:AccumulationRegister>

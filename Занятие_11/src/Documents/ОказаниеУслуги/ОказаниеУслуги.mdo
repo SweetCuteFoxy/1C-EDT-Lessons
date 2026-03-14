@@ -28,7 +28,6 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <registerRecords>AccumulationRegister.ОстаткиМатериалов</registerRecords>
-  <registerRecords>AccumulationRegister.СтоимостьМатериалов</registerRecords>
   <defaultObjectForm>Document.ОказаниеУслуги.Form.ФормаДокумента</defaultObjectForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>

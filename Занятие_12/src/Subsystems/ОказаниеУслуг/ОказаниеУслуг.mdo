@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b2c3d4-2222-4bbb-b222-222222222202">
   <name>ОказаниеУслуг</name>
   <synonym>
@@ -18,7 +18,6 @@
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Report.Материалы</content>
   <content>InformationRegister.Цены</content>
-  <content>AccumulationRegister.СтоимостьМатериалов</content>
-  <content>AccumulationRegister.Продажи</content>
   <content>Enum.ВидыНоменклатуры</content>
+  <content>AccumulationRegister.СтоимостьМатериалов</content>
 </mdclass:Subsystem>

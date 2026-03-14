@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:InputField">
     <name>Номер</name>
@@ -99,6 +99,15 @@
       <enabled>true</enabled>
       <dataPath>
         <segments>Объект.ПереченьНоменклатуры.Сумма</segments>
+      </dataPath>
+    </items>
+    <items xsi:type="form:InputField">
+      <name>ПереченьНоменклатурыСтоимость</name>
+      <id>12</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <dataPath>
+        <segments>Объект.ПереченьНоменклатуры.Стоимость</segments>
       </dataPath>
     </items>
     <commandBarLocation>None</commandBarLocation>
