@@ -57,4 +57,5 @@
   <documents>Document.ПриходнаяНакладная</documents>
   <reports>Report.Материалы</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+  <dataProcessors>DataProcessor.ЗаполнениеДанными</dataProcessors>
 </mdclass:Configuration>

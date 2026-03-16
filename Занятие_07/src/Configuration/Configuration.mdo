@@ -58,4 +58,5 @@
   <reports>Report.Материалы</reports>
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
   <commonModules>CommonModule.Серверный</commonModules>
+  <dataProcessors>DataProcessor.ЗаполнениеДанными</dataProcessors>
 </mdclass:Configuration>

@@ -11,4 +11,5 @@
     <picture>CommonPicture.Предприятие</picture>
   </picture>
   <content>DataProcessor.РаботаСЗапросами</content>
+  <content>DataProcessor.ЗаполнениеДанными</content>
 </mdclass:Subsystem>

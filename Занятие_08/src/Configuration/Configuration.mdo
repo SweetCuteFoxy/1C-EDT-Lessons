@@ -59,4 +59,5 @@
   <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
   <commonModules>CommonModule.РаботаСДокументами</commonModules>
   <commonModules>CommonModule.Серверный</commonModules>
+  <dataProcessors>DataProcessor.ЗаполнениеДанными</dataProcessors>
 </mdclass:Configuration>

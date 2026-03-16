@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1a0b1c1-0501-4e05-a105-000000000501">
+  <name>ЗаполнениеДанными</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение данными</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗаполнениеДанными.Form.Форма</defaultForm>
+  <forms uuid="e1a0b1c1-0501-4e05-a105-000000000502">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

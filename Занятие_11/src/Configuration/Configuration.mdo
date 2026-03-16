@@ -63,4 +63,5 @@
   <commonModules>CommonModule.Серверный</commonModules>
   <informationRegisters>InformationRegister.Цены</informationRegisters>
   <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
+  <dataProcessors>DataProcessor.ЗаполнениеДанными</dataProcessors>
 </mdclass:Configuration>

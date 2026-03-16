@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Заполнение данными</value>
+  </title>
+  <items xsi:type="form:Button" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>ЗаполнитьДанные</name>
+    <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Заполнить данные</value>
+    </title>
+    <type>UsualButton</type>
+    <commandName>Form.Command.ЗаполнитьДанные</commandName>
+  </items>
+  <formCommands>
+    <name>ЗаполнитьДанные</name>
+    <title>
+      <key>ru</key>
+      <value>Заполнить данные</value>
+    </title>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <handler>
+        <name>ЗаполнитьДанные</name>
+      </handler>
+    </action>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>
