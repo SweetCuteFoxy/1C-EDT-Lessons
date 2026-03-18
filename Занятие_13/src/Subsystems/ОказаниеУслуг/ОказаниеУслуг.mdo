@@ -18,7 +18,6 @@
   <content>AccumulationRegister.ОстаткиМатериалов</content>
   <content>Report.Материалы</content>
   <content>InformationRegister.Цены</content>
-  <content>Enum.ВидыНоменклатуры</content>
   <content>AccumulationRegister.СтоимостьМатериалов</content>
   <content>AccumulationRegister.Продажи</content>
 </mdclass:Subsystem>

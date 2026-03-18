@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ccfe9e-9be7-4079-81b3-d39c15522309">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1ffd170-42cf-4905-883f-f2345f1c3338">
   <name>Услуги</name>
   <synonym>
     <key>ru</key>
@@ -48,6 +48,9 @@
   <commonPictures>CommonPicture.Материалы</commonPictures>
   <commonPictures>CommonPicture.Предприятие</commonPictures>
   <commonPictures>CommonPicture.Услуги</commonPictures>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <commonModules>CommonModule.Серверный</commonModules>
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -56,14 +59,10 @@
   <documents>Document.ОказаниеУслуги</documents>
   <documents>Document.ПриходнаяНакладная</documents>
   <reports>Report.Материалы</reports>
-  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
-  <enums>Enum.ВидыНоменклатуры</enums>
-  <commonModules>CommonModule.РаботаСДокументами</commonModules>
-  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
-  <commonModules>CommonModule.Серверный</commonModules>
-  <informationRegisters>InformationRegister.Цены</informationRegisters>
-  <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеДанными</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСЗапросами</dataProcessors>
+  <informationRegisters>InformationRegister.Цены</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиМатериалов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.СтоимостьМатериалов</accumulationRegisters>
 </mdclass:Configuration>
