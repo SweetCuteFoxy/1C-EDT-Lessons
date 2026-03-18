@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1a2b3c4-0002-4a02-b002-000000000201">
   <producedTypes>
     <objectType typeId="d1a2b3c4-0002-4a02-b002-000000000202" valueTypeId="d1a2b3c4-0002-4a02-b002-000000000203"/>
@@ -43,9 +43,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>Catalog.Склады.Основной</value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -92,7 +90,7 @@
       <value>Перечень номенклатуры</value>
     </synonym>
     <fillChecking>ShowError</fillChecking>
-    <lineNumberLength>9</lineNumberLength>
+    <lineNumberLength>5</lineNumberLength>
     <attributes uuid="d1a2b3c4-0002-4a02-b002-000000000231">
       <name>Номенклатура</name>
       <synonym>

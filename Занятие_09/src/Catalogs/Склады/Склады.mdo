@@ -35,12 +35,4 @@
   <editType>InDialog</editType>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <predefined>
-    <item id="c1d2e3f4-4444-4ddd-a444-ddddddddd410">
-      <name>Основной</name>
-      <description>Основной</description>
-      <code xsi:type="core:StringValue"/>
-      <isFolder>false</isFolder>
-    </item>
-  </predefined>
 </mdclass:Catalog>
